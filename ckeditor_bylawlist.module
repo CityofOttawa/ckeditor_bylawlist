@@ -7,11 +7,11 @@ function ckeditor_bylawlist_ckeditor_plugin() {
   return array(
     'bylawlist' => array(
       'name' => 'bylawlist',
-      'desc' => t('CKEditor Accessibility Checker'),
+      'desc' => t('CKEditor Bylaw List Button'),
       'path' => libraries_get_path('bylawlist', TRUE) . '/',
       'buttons' => array(
         'Bylawlist' => array(
-          'icon' => 'icons/bylawlist.png',
+          /* 'icon' => 'icons/bylawlist.png', */
           'label' => t('Bylaw List'),
         ),
       ),
