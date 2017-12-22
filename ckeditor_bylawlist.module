@@ -3,7 +3,7 @@
 /**
  * Implements hook_ckeditor_plugin().
  */
-function ckeditor_bylawlist() {
+function ckeditor_bylawlist_ckeditor_plugin() {
   return array(
     'bylawlist' => array(
       'name' => 'bylawlist',
@@ -22,7 +22,7 @@ function ckeditor_bylawlist() {
 /**
  * Implements hook_libraries_info().
  */
-function ckeditor_bylawlist_info() {
+function ckeditor_bylawlist_libraries_info() {
   return array(
     'bylawlist' => array(
       'name' => 'CKEditor Bylaw List',
