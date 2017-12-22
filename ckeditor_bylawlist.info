@@ -1,0 +1,8 @@
+name = CKEditor Bylaw List
+description = Adds the Bylaw list numbers
+package = User interface
+core = 7.x
+
+dependencies[] = ckeditor
+dependencies[] = ckeditor_balloonpanel
+dependencies[] = libraries
