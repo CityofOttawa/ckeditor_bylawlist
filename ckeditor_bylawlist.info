@@ -5,7 +5,3 @@ core = 7.x
 
 dependencies[] = ckeditor
 dependencies[] = libraries
-
-; For release 7.60 only - https://github.com/CityofOttawa/ottawa_profile/issues/2312
-stylesheets[all][] = css/ckeditor_bylawlist.css
-scripts[] = 'js/ckeditor_bylawlist.js'
